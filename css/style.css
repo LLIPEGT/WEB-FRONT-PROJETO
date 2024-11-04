@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+
+}
+
+div{
+    background-color: white;
+    margin: auto;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to top, #554539, #805C40);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+#rodape{
+    background-color: #D57323;
+    padding: 0;
+    margin: 0;
+
+    font-size: 10px;
+}
+
+#menu{
+    background-color: #554539;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+    color: #FF7300;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
